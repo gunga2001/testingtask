@@ -1,0 +1,16 @@
+
+.container {
+    width: 100%;
+    margin:280px auto 300px;
+    position: relative;
+
+    & .mainPhoto {
+        margin: 0 auto;
+        display: block;
+        position:relative;
+    }
+    & .containerItems {
+
+    }
+}
+

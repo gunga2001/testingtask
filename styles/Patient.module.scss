@@ -1,0 +1,44 @@
+@import "font.css";
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+
+  & h2 {
+    font-family: 'Roboto-Bold';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 35px;
+    text-align: center;
+
+    color: #028CA6;
+  }
+
+  & img {
+    width: 300px;
+    height: 300px;
+    cursor: pointer;
+    transition:all 0.5s ;
+  }
+  & img:hover {
+    transform: scale(1.05);
+  }
+  .child{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+  }
+  .child p:last-child {
+    margin-bottom: 0;
+  }
+
+  .wrap {
+    height: 100%;
+  }
+}
+
